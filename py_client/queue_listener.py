@@ -4,7 +4,7 @@ import threading
 
 import pika
 
-RABBIT_URL = os.environ.get("RABBIT_URL", "amqp://guest:guest@localhost:5672")
+RABBIT_HOST = os.environ.get("RABBIT_HOST", "localhost")
 EXCHANGE = "rh.eventos"
 QUEUE = "rh.eventos.python"
 
@@ -15,7 +15,9 @@ def _formatar_evento(evento: dict) -> str:
 
 
 def _consumir():
-    connection = pika.BlockingConnection(pika.URLParameters(RABBIT_URL))
+    connection = pika.BlockingConnection(
+        pika.ConnectionParameters(host=RABBIT_HOST)
+    )
     channel = connection.channel()
     channel.exchange_declare(exchange=EXCHANGE, exchange_type="fanout", durable=True)
     channel.queue_declare(queue=QUEUE, durable=True)

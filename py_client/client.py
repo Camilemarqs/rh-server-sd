@@ -1,11 +1,10 @@
 import json
-import os
 
 import requests
 
 from queue_listener import iniciar_consumidor
 
-BASE_URL = os.environ.get("API_URL", "http://localhost:8080")
+BASE_URL = "http://localhost:8080"
 
 
 def cabecalho(titulo: str):

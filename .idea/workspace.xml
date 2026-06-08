@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b457f7fe-92df-4d34-b86e-50492fc2ecb2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/RhServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/controller/ColaboradorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/controller/DepartamentoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/controller/FolhaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/model/Admissivel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/model/Autonomo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/model/Colaborador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/model/Departamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/model/Efetivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/model/Estagiario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/model/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/repository/ColaboradorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/repository/DepartamentoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/service/ColaboradorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/service/DepartamentoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rh/service/FolhaService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Werley-08"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Camilemarqs/rh-server-sd.git",
+    "accountId": "7ee3f9c4-d499-40fa-b0b3-86b1eab3c7ed"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3EqgmhD97JrukwM5K0E3u6tH2Rb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.RhApplication.executor": "Run",
+    "Application.RhServerApplication.executor": "Run",
+    "Application.src.main.java.com.rh.rh.RhApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b457f7fe-92df-4d34-b86e-50492fc2ecb2" name="Changes" comment="" />
+      <created>1780911678196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780911678196</updated>
+    </task>
+    <servers />
+  </component>
+</project>

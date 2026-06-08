@@ -1,7 +1,7 @@
 import * as readline from "readline";
 import { iniciarConsumidor } from "./queue.js";
 
-const BASE_URL = process.env.API_URL ?? "http://localhost:8080";
+const BASE_URL = "http://localhost:8080";
 
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 const ask = (q) => new Promise((res) => rl.question(q, res));
